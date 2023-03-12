@@ -11,12 +11,7 @@ def a_plus_abs_b(a, b):
     >>> a_plus_abs_b(2, -3)
     5
     """
-    if b < 0:
-        f = sub
-    else:
-        f = add
-    return f(a, b)
-
+    return add(a, b) if b >= 0 else sub(a, b)
 
 def two_of_three(a, b, c):
     """Return x*x + y*y, where x and y are the two largest members of the
@@ -64,11 +59,7 @@ def if_function(condition, true_result, false_result):
     >>> if_function(3>2, 3+2, 3-2)
     5
     """
-    if condition:
-        return true_result
-    else:
-        return false_result
-
+    return true_result if condition else false_result
 
 def with_if_statement():
     """
