@@ -130,3 +130,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ok
+.ok_history
+.ok_storage.db
+
+# vscode
+.vscode
