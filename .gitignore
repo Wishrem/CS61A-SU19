@@ -134,6 +134,7 @@ dmypy.json
 # ok
 .ok_history
 .ok_storage.db
+test/
 
 # vscode
 .vscode
