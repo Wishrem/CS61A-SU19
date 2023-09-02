@@ -132,12 +132,15 @@ dmypy.json
 .pyre/
 
 # ok
+ok
+*.ok
 .ok_history
 .ok_storage.db
 test/
 tests/
 
 # scheme
+scheme
 editor/
 
 # vscode
