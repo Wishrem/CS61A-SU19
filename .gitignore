@@ -136,5 +136,8 @@ dmypy.json
 .ok_storage.db
 test/
 
+# scheme
+editor/
+
 # vscode
 .vscode
