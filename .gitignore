@@ -144,5 +144,9 @@ scheme
 !scheme/
 editor/
 
+#sqlite
+sqlite3
+sqlite_shell.py
+
 # vscode
 .vscode
