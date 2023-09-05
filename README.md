@@ -9,7 +9,7 @@ The version of Python is 3.9.16. I have pushed my package list 'requirements.txt
 You need run the below command in every time you downloaded a new 'lab', 'project' or 'homework'.  
 ```bash
 conda activate ok # activate the env
-python ok -u # update OK
+python ok # update OK
 ```
 After doing that, it'll raise an KeyError 'BREAK_LOOP'. Don't worry about that, that means you have successfully update OK.  
 ## Attention
